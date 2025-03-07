@@ -1,0 +1,67 @@
+body {
+  background-color: #333;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Monsterrat", sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  top: 10vh;
+  width: 80vw;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 -10px;
+}
+
+.header {
+  position: relative;
+  background-image: url(../img/drink-1870139_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: center;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  display: flex;
+  height: 200px;
+  width: 450px;
+  top: 0px;
+  box-shadow: 0 0 10px;
+}
+
+h1 {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  color: antiquewhite;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+
+.search {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  width: 370px;
+}
+
+.drinklist {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  width: 450px;
+  background-color: #fff;
+  box-shadow: 0 0 10px;
+}
+.drinklist ul {
+  list-style-type: none;
+}
+.drinklist ul li {
+  padding: 0;
+  transform: translate(0, -15px);
+  margin-left: -35px;
+}/*# sourceMappingURL=main.css.map */
