@@ -7,7 +7,7 @@ Lekka i responsywna aplikacja frontendowa do wyszukiwania danych (np. użytkowni
 
 ##  Live Demo  
 https://jj99wrocc.github.io/Search-by-Name/
-**Demo:** 
+
 
 ---
 
@@ -35,3 +35,47 @@ https://jj99wrocc.github.io/Search-by-Name/
    ```bash
    git clone https://github.com/JJ99Wrocc/Search-by-Name.git
    cd Search-by-Name
+   npm install
+   npm start
+   Podczas rozwijania projektu, możesz używać tej struktury:
+
+<div class="search-container">
+  <input type="text" id="searchInput" placeholder="Wpisz nazwę...">
+  <div id="results"></div>
+</div>
+<script src="javascript/app.js"></script>
+
+
+SCSS możesz modyfikować w scss/, np.:
+
+$primary-color: #3498db;
+
+.search-container {
+  input {
+    border: 2px solid $primary-color;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+Możliwości rozwoju
+
+Podłączenie zewnętrznego API (np. REST) do pobierania danych dynamicznie.
+
+Wersja komponentowa: Vue, React lub Web Component.
+
+Udoskonalone wyszukiwanie (autouzupełnianie, fuzzy search).
+
+Obsługa wielu języków i lokalizacji.
+
+Co zyskałem tworząc projekt
+
+Praktyka w pisaniu modularnego kodu w HTML/CSS/JS.
+
+Praca z preprocesorem SCSS — czystszy i bardziej skalowalny CSS.
+
+Doświadczenie z GitHub Actions — automatyzacja budowania i testowania.
+
+Licencja
+
+Autor: Joachim Esangbedo
